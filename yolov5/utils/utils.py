@@ -906,8 +906,10 @@ def increment_dir(dir, comment=''):
     # Increments a directory runs/exp1 --> runs/exp2_comment
     n = 0  # number
     d = sorted(glob.glob(dir + '*'))  # directories
+    print(d)
     if len(d):
         d = d[-1].replace(dir, '')
+        print(d)
         n = int(d[:d.find('_')] if '_' in d else d) + 1  # increment
     return dir + str(n) + ('_' + comment if comment else '')
 
