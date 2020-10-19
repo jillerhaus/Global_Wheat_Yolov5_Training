@@ -1,7 +1,7 @@
 {
   "id": "johannesillerhaus/global-wheat-version-1",
   "title": "Global Wheat Version 1",
-  "code_file": "global-wheat-version-1.ipynb",
+  "code_file": "train_yolov5.ipynb",
   "language": "python",
   "kernel_type": "notebook",
   "is_private": "true",
